@@ -15,7 +15,7 @@
 <body>
     <header>
     <!-- navigation bar -->
-        <nav class="flex flex-col md:flex-col lg:flex-row justify-between mx-0 md:mx-32 mt-8 mb-12">
+        <nav class="flex flex-col lg:flex-row justify-between mx-0 md:mx-32 mt-8 mb-12">
             <ul class="flex items-center justify-center gap-8 md:gap-16 mb-8 text-base">
                 <li><img class="w-14 h-14" src="logos/logo.png" alt=""></li>
                 <li class="font-normal ">Discover</li>
@@ -28,11 +28,11 @@
             </ul>
         </nav>
     <!-- Bannar section -->
-        <div class="bannar flex gap-16 items-center mx-32 mb-14">
-            <div class="bannar-title">
+        <div class="bannar flex flex-col lg:flex-row gap-16 items-center mx-0 md:mx-32 mb-14">
+            <div class="bannar-title text-center md:text-center lg:text-start">
                 <h1 class="text-7xl font-bold">Make<br>Your<br>Burger</h1>
             </div>
-            <div class="bannar-container flex items-center gap-5">
+            <div class="bannar-container flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-5">
                 <img class="w-[602px] h-[559px]" src="imagrs/burger.png" alt="">
                 <div class="container-description">
                     <h3 class="text-4xl font-semibold mb-12">Summary</h3>
@@ -40,7 +40,7 @@
                         <h3 class="text-4xl font-extrabold text-[#5243C2]">$12.31</h3>
                         <button class="rounded-[99px] bg-[#5243C2] text-white px-7 text-base font-semibold">Checkout</button>
                     </div>
-                    <div class="images flex gap-2 mb-[105px]">
+                    <div class="images flex gap-2 mb-10 lg:mb-[105px]">
                         <div class="container-info flex items-center gap-2">
                             <img class="w-8 h-8" src="logos/watch.png" alt="">
                             <h4 class="font-semibold">7 min</h4>
@@ -66,7 +66,7 @@
     <main>
     <!-- ingredients section  -->
         <section>
-            <div class="ingredients flex items-center gap-8 mx-52 text-center text-sm font-semibold mb-16">
+            <div class="ingredients grid grid-cols-4 lg:flex lg:items-center gap-8 mx-0 md:mx-2 lg:mx-52 text-center text-sm font-semibold mb-16">
             <div class="ingra-1">
                 <img class="w-[104px] h-[59px]" src="imagrs/cutlet.png" alt="">
                 <h5>Cutlet</h5>
@@ -110,15 +110,15 @@
             </div>
         </section>
     </main>
-    <footer>
     <!-- Footer section -->
-    <div class="ft-container flex items-center justify-between mx-32 mb-10">
-        <div class="ft-text flex gap-2 items-center text-xs font-normal text-[#5243C2]">
+    <footer>
+    <div class="ft-container grid grid-cols-1 md:flex items-center justify-between md:mx-2 lg:mx-32 mb-10">
+        <div class="ft-text flex gap-2 items-center justify-center md:justify-between text-xs font-normal text-[#5243C2] mb-8 md:mb-0">
             <h6>2022. Make Your Burger</h6>
             <h6>Privacy Policy</h6>
             <h6>Terms & Conditions</h6>
         </div>
-        <div class="ft-logo flex gap-2">
+        <div class="ft-logo flex gap-2 justify-center md:justify-between">
             <img class="w-9 h-6" src="logos/payment-logo-1.png" alt="">
             <img class="w-9 h-6" src="logos/payment-logo-2.png" alt="">
             <img class="w-9 h-6" src="logos/payment-logo-3.png" alt="">
